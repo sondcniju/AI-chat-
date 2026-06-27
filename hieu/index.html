@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiá»ƒu - Hiá»ƒu-Chuyá»‡n Summer Camp</title>
+    <!-- Google Fonts: Playfair Display (Serif), Inter (Sans-serif) and Caveat (Handwritten style for feedback) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sticky Header -->
+    <header class="main-header" id="mainHeader">
+        <div class="header-container">
+            <a href="#" class="logo-area">
+                <svg class="logo-svg" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="25" r="23" stroke="currentColor" stroke-width="2"/>
+                    <path d="M12 36L22 22L29 30L38 16L41 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="34" cy="20" r="3" fill="currentColor"/>
+                </svg>
+                <div class="logo-text">
+                    <span class="logo-title">HIá»‚U-CHUYá»†N</span>
+                    <span class="logo-subtitle">SUMMER CAMP</span>
+                </div>
+            </a>
+
+            <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="../home/index.html" class="nav-item ">Homepage</a>
+                <a href="../about/index.html" class="nav-item ">About Us</a>
+                <a href="../hieu/index.html" class="nav-item active">Hiá»ƒu</a>
+                <a href="../chuyen-tro/index.html" class="nav-item ">Chuyá»‡n trÃ²</a>
+                <a href="../tu-viet/index.html" class="nav-item ">Tá»± viáº¿t cÃ¢u chuyá»‡n</a>
+                <a href="../lien-he/index.html" class="nav-item ">LiÃªn há»‡</a>
+            </nav>
+
+            <div class="header-cta">
+                <button class="btn btn-primary btn-register-trigger">ÄÄ‚NG KÃ NGAY</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section / Under construction -->
+    <section class="hero-section" style="background-image: linear-gradient(rgba(10, 25, 47, 0.6), rgba(10, 25, 47, 0.8)); min-height: 100vh; display: flex; align-items: center;">
+        <div class="hero-container">
+            <div class="hero-content text-center" style="max-width: 800px; margin: 0 auto;">
+                <span class="hero-badge" style="background-color: var(--primary-color);">HIÁ»ƑU</span>
+                <h1 class="hero-title serif" style="font-size: 3.5rem; margin-top: 10px; margin-bottom: 20px;">Hiá»ƒu</h1>
+                <p class="hero-intro" style="color: var(--primary-color); font-weight: 600; font-size: 1.25rem; margin-bottom: 24px;">Trang web Ä‘ang Ä‘Æ°á»£c hoÃ n thiá»‡n</p>
+                <p class="hero-description" style="margin-bottom: 40px; font-size: 1.05rem; opacity: 0.85;">
+                    Trang nÃ y Ä‘ang Ä‘Æ°á»£c xÃ¢y dá»±ng bá»Ÿi thÃ nh viÃªn khÃ¡c trong nhÃ³m. HÃ£y chuyá»ƒn sang xem cÃ¡c trang Ä‘Ã£ hoÃ n thiá»‡n dÆ°á»›i Ä‘Ã¢y:
+                </p>
+                
+                <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                    <a href="../chuyen-tro/index.html" class="btn btn-primary" style="padding: 14px 28px;">Giao diá»‡n Chuyá»‡n TrÃ² <i class="fa-solid fa-comments" style="margin-left: 8px;"></i></a>
+                    <a href="../tu-viet/index.html" class="btn btn-secondary" style="padding: 14px 28px;">Giao diá»‡n Tá»± Viáº¿t CÃ¢u Chuyá»‡n <i class="fa-solid fa-pen-nib" style="margin-left: 8px;"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer & Final CTA -->
+    <footer class="footer-section">
+        <div class="container footer-container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 HIá»‚U-CHUYá»†N Summer Camp. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="../tu-viet/index.html">Trang chá»§</a>
+                    <a href="../about/index.html">About Us</a>
+                    <a href="../lien-he/index.html">LiÃªn há»‡</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Register Modal -->
+    <div class="modal-overlay" id="registerModal">
+        <div class="modal-box form-modal">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <div class="modal-scroll-container">
+                <div class="register-header text-center">
+                    <h2 class="serif">ÄÄ‚NG KÃ HÃ€NH TRÃŒNH</h2>
+                    <p>HÃ£y cÃ¹ng Hiá»ƒu-Chuyá»‡n kiáº¿n táº¡o nÃªn má»™t mÃ¹a hÃ¨ Ã½ nghÄ©a vÃ  Ä‘Ã¡ng nhá»›!</p>
+                </div>
+                <form id="registerForm" class="register-form">
+                    <div class="form-group">
+                        <label for="fullName">Há» vÃ  tÃªn há»c sinh / phá»¥ huynh <span class="required">*</span></label>
+                        <input type="text" id="fullName" name="fullName" required placeholder="Nháº­p Ä‘áº§y Ä‘á»§ há» vÃ  tÃªn">
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phoneNumber">Sá»‘ Ä‘iá»‡n thoáº¡i liÃªn há»‡ <span class="required">*</span></label>
+                            <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="Nháº­p sá»‘ Ä‘iá»‡n thoáº¡i">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Äá»‹a chá»‰ Email <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required placeholder="email@viettel.vn">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block">Gá»­i thÃ´ng tin Ä‘Äƒng kÃ½</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script file -->
+    <script src="script.js"></script>
+</body>
+</html>
